@@ -57,10 +57,10 @@ body {
 
   display: flex;
 
-  /* flex-direction: column; */
+  flex-direction: column;
 
   /* justify-content is for aligning the element on the main axis  (horizontal by default) */
-  /* justify-content: space-evenly; */
+  justify-content: space-between;
 
   /* try */
   /* flex-start, flex-end, center,space-between,space-around, space-evenly */
@@ -78,11 +78,11 @@ body {
 
   /* when we have flex-wrap: wrap; a new property is unlock, the align-content property */
   /* Properties value is more or less the same as justify-content */
-  /* align-content: center; */
+  align-content: flex-start;
 
   /* gap: 1rem; */
 
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
 }
 
 .item-1 {
@@ -91,6 +91,7 @@ body {
 
 .item-2 {
   font-size: 1.5rem;
+  /* flex: 2 2 200px; */
 }
 
 /* Learning Point 2 */
@@ -103,7 +104,7 @@ body {
   /* flex-shrink: 5; */
   /* flex-basis: 300px; */
   /* flex combines all 3 but the last 2 are optional and will adjust responsively by default */
-  /* flex: 1; */
+  flex: 1 5 150px;
   /* try */
   /* flex-start, flex-end, center,baseline */
   /* align-self: baseline; */
